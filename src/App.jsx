@@ -12,7 +12,6 @@ function App() {
       <main>
         <Hero />
         <LearningJourney />
-        <img src="./public/Calculator.png"></img>
         <Projects />
       </main>
       <Footer />
