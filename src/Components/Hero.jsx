@@ -1,4 +1,5 @@
 import React from "react";
+import keerthi from "../Photos/keerthi.jpg"
 
 const Hero = () => {
   return (
@@ -6,7 +7,7 @@ const Hero = () => {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8 px-6">
         <div className="flex-shrink-0">
           <div className="w-44 h-44 md:w-56 md:h-56 rounded-full border-4 border-white shadow-2xl overflow-hidden transform transition hover:scale-105">
-            <img src="/Public/keerthi.jpg" alt="Kiruthika" className="w-full h-full object-cover object-top" />
+            <img src={keerthi} alt="Kiruthika" className="w-full h-full object-cover object-top" />
           </div>
         </div>
 
@@ -20,7 +21,7 @@ const Hero = () => {
           <a href="#projects" className="inline-block mt-6 bg-white text-pink-500 font-semibold px-6 py-3 rounded-lg shadow hover:scale-105 transition">
             View My Projects
           </a>
-        </div>
+        </div>  
       </div>
     </section>
   );
