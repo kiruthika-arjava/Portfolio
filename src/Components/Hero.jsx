@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8 px-6">
         <div className="flex-shrink-0">
           <div className="w-44 h-44 md:w-56 md:h-56 rounded-full border-4 border-white shadow-2xl overflow-hidden transform transition hover:scale-105">
-            <img src="/keerthi.jpg" alt="Kiruthika" className="w-full h-full object-cover object-top" />
+            <img src="/Public/keerthi.jpg" alt="Kiruthika" className="w-full h-full object-cover object-top" />
           </div>
         </div>
 
