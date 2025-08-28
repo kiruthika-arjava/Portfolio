@@ -1,4 +1,6 @@
 import React from "react";
+import site from "../Photos/site.png"
+
 
 const Projects = () => {
   const projects = [
@@ -17,7 +19,7 @@ const Projects = () => {
           {projects.map((p, i) => (
             <div key={i} className="bg-white rounded-xl shadow-lg overflow-hidden transform transition hover:scale-105">
               <div className="h-44 overflow-hidden">
-                <img src={p.img} alt={p.title} className="w-full h-full object-cover" />
+                <img src={site} alt="title" className="w-full h-full object-cover" /> 
               </div>
               <div className="p-4">
                 <h3 className="text-lg font-semibold">{p.title}</h3>
